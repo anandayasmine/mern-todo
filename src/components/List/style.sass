@@ -1,0 +1,32 @@
+@import 'src/assets/global_style'
+
+.list
+ list-style-type: none
+ padding: $val-md 0
+ display: flex
+ color: gray
+ justify-content: space-between	
+ align-items: center
+
+.list.active
+ color: $color-primary
+
+.icon
+ cursor: pointer
+ // color: $color-secondary
+ margin-right: $val-md
+ 
+ //&:hover
+ // color: $color-primary
+
+.listContent 
+ display: flex
+
+ .content
+  word-break: break-all
+
+.actions
+ min-width: fit-content
+ span
+  cursor: pointer
+

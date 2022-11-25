@@ -1,0 +1,34 @@
+@import 'src/assets/global_style'
+
+.area
+ padding: 0
+ width: 100%
+ min-height: 100vh
+ display: -webkit-box
+ display: -webkit-flex
+ display: -moz-box
+ display: -ms-flexbox
+ display: flex
+ flex-wrap: wrap
+ flex-direction: column
+ justify-content: center
+ align-items: center
+ padding: 15px
+ background-repeat: no-repeat
+ background-position: center
+ background-size: cover
+ position: relative
+ z-index: 1
+
+ .panel 
+  +panel-sm
+  padding: $val-xl
+  margin-bottom: $val-sm
+
+ .wrapInput
+
+  & > div
+   margin-bottom: $val-sm
+
+  input
+   padding-left: 0

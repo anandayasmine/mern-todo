@@ -1,0 +1,68 @@
+@import 'src/assets/global_style'
+
+$phColor: #3d3d3d
+$iconColor: gray
+
+=placeholder-color($phColor) 
+ &::-webkit-input-placeholder  /* WebKit browsers */
+  color: $phColor
+  text-transform: none
+  
+ &:-moz-placeholder  /* Mozilla Firefox 4 to 18 */
+  color: $phColor
+  text-transform: none
+  
+ &::-moz-placeholder  /* Mozilla Firefox 19+ */
+  color: $phColor
+  text-transform: none
+  
+ &:-ms-input-placeholder  /* Internet Explorer 10+ */
+  color: $phColor
+  text-transform: none
+   
+.fancyInput 
+ width: 100%
+ position: relative
+ margin-bottom: $val-xl
+
+ input 
+  font-size: 1.1rem
+  color: $phColor
+  line-height: 1.2
+  display: block
+  width: 100%
+  height: 45px
+  background: transparent
+  padding: 0 5px 0 43px
+  border:0
+  border-bottom: 1px solid #ddd
+  -webkit-transition: all 0.4s
+  -o-transition: all 0.4s
+  -moz-transition: all 0.4s
+  transition: all 0.4s
+  +placeholder-color($phColor)
+
+
+ input:focus 
+  border-bottom: 2px solid gray
+  padding-left: 5px
+  outline: none
+  // outline: 1px solid #ddd
+  // border-radius: 11px
+
+
+
+ input:focus + span
+  top:-31px
+
+ span 
+  color: $iconColor
+  position: absolute
+  top: 0
+  left: 0
+  padding: 9px
+  -webkit-transition: all 0.4s
+  -o-transition: all 0.4s
+  -moz-transition: all 0.4s
+  transition: all 0.4s
+

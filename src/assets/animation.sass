@@ -1,0 +1,185 @@
+.wiggle
+ -webkit-animation-name: wiggle
+ -ms-animation-name: wiggle
+ -ms-animation-duration: 1000ms
+ -webkit-animation-duration: 1000ms
+ -webkit-animation-iteration-count: 1
+ -ms-animation-iteration-count: 1
+ -webkit-animation-timing-function: ease-in-out
+ -ms-animation-timing-function: ease-in-out
+
+
+@-webkit-keyframes wiggle 
+ 0% 
+  -webkit-transform: rotate(10deg)
+ 25% 
+  -webkit-transform: rotate(-10deg)
+ 50% 
+  -webkit-transform: rotate(20deg)
+ 75% 
+  -webkit-transform: rotate(-5deg)
+ 100% 
+  -webkit-transform: rotate(0deg)
+
+
+@-ms-keyframes wiggle 
+ 0% 
+  -ms-transform: rotate(1deg)
+ 25% 
+  -ms-transform: rotate(-1deg)
+ 50% 
+  -ms-transform: rotate(1.5deg)
+ 75% 
+  -ms-transform: rotate(-5deg)
+ 100% 
+  -ms-transform: rotate(0deg)
+
+
+@keyframes wiggle 
+ 0% 
+  transform: rotate(10deg)
+ 25% 
+  transform: rotate(-10deg)
+ 50% 
+  transform: rotate(20deg)
+ 75% 
+  transform: rotate(-5deg)
+ 100% 
+  transform: rotate(0deg)
+
+// =========== Shake Animation ===========
+// src : https://codepen.io/Yasmine7788/pen/gOrvQzX?css-preprocessor=scss
+
+.shake 
+ -webkit-animation-name: spaceboots
+ -webkit-animation-duration: 0.8s
+ -webkit-transform-origin:50% 50%
+ -webkit-animation-iteration-count: 1
+ -webkit-animation-timing-function: linear
+
+
+@-webkit-keyframes spaceboots 
+  0%
+   -webkit-transform: translate(2px, 1px) rotate(0deg)
+  10%
+   -webkit-transform: translate(-1px, -2px) rotate(-1deg)
+  20%
+   -webkit-transform: translate(-3px, 0px) rotate(1deg)
+  30%
+   -webkit-transform: translate(0px, 2px) rotate(0deg)
+  40%
+   -webkit-transform: translate(1px, -1px) rotate(1deg)
+  50%
+   -webkit-transform: translate(-1px, 2px) rotate(-1deg)
+  60%
+   -webkit-transform: translate(-3px, 1px) rotate(0deg)
+  70%
+   -webkit-transform: translate(2px, 1px) rotate(-1deg)
+  80%
+   -webkit-transform: translate(-1px, -1px) rotate(1deg)
+  90%
+   -webkit-transform: translate(2px, 2px) rotate(0deg)
+  100%
+   -webkit-transform: translate(1px, -2px) rotate(-1deg)
+
+
+// =========== Vibrate Animation ===========
+// src : https://codepen.io/douglasdavis/pen/EwbgJz
+
+.vibrate 
+ -webkit-animation: alert 1.5s linear 0s 1 normal 
+ animation: alert 1.5s linear 0s 1 normal 
+
+@-webkit-keyframes alert 
+  0%
+   -webkit-transform: translateX(0)
+   transform: translateX(0)
+  
+  5%
+   -webkit-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  10%
+   -webkit-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  15%
+   -webkit-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  20%
+   -webkit-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  25%
+   -webkit-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  30%
+   -webkit-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  35%
+   -webkit-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  40%
+   -webkit-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  45%
+   -webkit-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  50%
+   -webkit-transform: translateX(0)
+   transform: translateX(0)
+  
+
+
+@keyframes alert 
+  0%
+   -ms-transform: translateX(0)
+   transform: translateX(0)
+  
+  5%
+   -ms-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  10%
+   -ms-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  15%
+   -ms-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  20%
+   -ms-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  25%
+   -ms-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  30%
+   -ms-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  35%
+   -ms-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  40%
+   -ms-transform: translateX(10px)
+   transform: translateX(10px)
+  
+  45%
+   -ms-transform: translateX(-10px)
+   transform: translateX(-10px)
+  
+  50%
+   -ms-transform: translateX(0)
+   transform: translateX(0)
+  
+

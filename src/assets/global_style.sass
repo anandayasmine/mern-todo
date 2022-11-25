@@ -1,0 +1,115 @@
+$breakpoint-xs: 320px
+$breakpoint-sm: 576px
+$breakpoint-md: 768px
+$breakpoint-lg: 992px
+$breakpoint-xl: 1200px
+
+$val-xs: 3px
+$val-sm: 7px
+$val-md: 14px
+$val-xl: 31px
+
+$color-primary: #009688
+$color-secondary: #33cebf
+
+$color-alert-red: #e91e3a
+$color-fire-red: red
+$color-grass-green: green
+// .btn-sell
+// 	background-color: #d82f2f
+
+// .btn-sell:hover
+// 	background-color: #ba2323
+
+// .btn-sell:active
+// 	background-color: #9e1c1c
+
+
+$color-trans-white: rgba(255,255,255,0.7)
+$color-trans-black: rgba(0,0,0,0.5)
+
+$color-dark-gray: #3d3d3d
+$color-middark-gray: #888
+$color-mid-gray: #c7c7c7
+$color-light-gray: #ddd
+$color-xlight-gray: #efefef
+
+
+
+$border-thin-white: 0.1rem solid white
+
+html body .hide
+ display: none
+
+// .title
+//  color: blue
+
+button
+ border: none
+ outline: none
+ background-color: transparent
+
+button:hover 
+ cursor: pointer
+
+button:focus 
+ outline: none
+
+// .g_username, .g_password
+//  color: white
+=panel-sm
+ +round-border
+ min-width: $breakpoint-xs
+
+=transition-short
+ transition: 0.2s linear
+
+=transition-medium
+ transition: width 1s ease
+
+
+
+=zindex-bottom
+ z-index: 1
+
+=zindex-middle
+ z-index: 5
+
+=zindex-top
+ z-index: 10
+
+
+=border-bottom($color)
+ border-bottom: 1px solid $color
+
+=round-border()
+ // border: 1px solid $color
+ border-radius: 11px
+ border: 1px solid #c1c1c14f
+ box-shadow: 3px 3px 9px #8484843d
+
+=fos-xs
+ font-size: 0.8rem
+
+=fos-sm
+ font-size: 0.9rem
+
+=fos-md
+ font-size: 1rem
+
+=fos-lg
+ font-size: 1.1rem
+
+=fos-xl
+ font-size: 1.5rem
+
+.fontRed
+ color: $color-fire-red
+
+.fontGreen
+ color: $color-grass-green
+
+.fadeOut
+ visibility: hidden
+ opacity: 0
+ transition: visibility 2s linear 3s, opacity 2s linear 3s

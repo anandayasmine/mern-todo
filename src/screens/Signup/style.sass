@@ -1,0 +1,57 @@
+@import 'src/assets/global_style'
+
+$titleColor: $color-primary
+
+.area
+ padding: 0
+ width: 100%
+ min-height: 100vh
+ display: -webkit-box
+ display: -webkit-flex
+ display: -moz-box
+ display: -ms-flexbox
+ display: flex
+ flex-wrap: wrap
+ justify-content: center
+ align-items: center
+ padding: 15px
+ background-repeat: no-repeat
+ background-position: center
+ background-size: cover
+ position: relative
+ z-index: 1
+
+ .panel 
+  +round-border()
+  width: $breakpoint-xs
+  padding: $val-xl
+  margin-bottom: $val-sm
+
+  h2 
+   padding: $val-md
+   text-align: center
+   padding-top: 0
+   color: $titleColor
+   // border-bottom: 1px solid #ddd
+
+  .wrapInput
+   padding-top: $val-md
+
+ button
+  position: relative
+  top: -7px
+
+ .regLabel 
+  display: block
+  text-align: center
+  padding-top: $val-md
+
+  a 
+   cursor: pointer
+   display: block
+   color: $color-primary
+   padding-left: $val-xs
+ 
+   &:hover
+    color: $color-secondary
+    text-decoration: none

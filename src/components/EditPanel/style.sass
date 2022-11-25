@@ -1,0 +1,26 @@
+@import 'src/assets/global_style'
+
+.wrapper
+ +zindex-bottom
+ position: fixed
+ display: flex
+ justify-content: center
+ align-items: center
+
+.floatingPanel
+ position: fixed
+ +panel-sm
+ background: white
+ padding: $val-md
+ +zindex-middle
+
+ input
+  padding-left: 0
+
+
+.overlay
+ // position: fixed
+ // +zindex-bottom
+ width: 100vw
+ height: 100vh
+ background-color: $color-trans-white
