@@ -24,13 +24,17 @@ Example
 ## Run React ##
 
 Development Environment:
-> npm start 
+> npm run start 
 
 Production Environment:
 > npm run prod
 
 Build Front End
-> npm build 
+> npm run build 
+
+
+## The Application ##
+![alt text](https://github.com/anandayasmine/mern-todo/blob/main/public/images/ss-1.jpg?raw=true)
 
 
 Copyright © 2020 by Ananda Yasmine. All rights reserved.
