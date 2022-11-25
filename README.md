@@ -8,10 +8,12 @@ The development of this product made by using MERN (Mongodb, Express, React, and
 ## Set up the server ##
 create your local .env file with variable such as: 
 > DB_CONNECTION=<your_db_connection>
+>
 > PORT=<your_part>
 
 Example
 > DB_CONNECTION=mongodb+srv://admin:user123@cluster0.s2yvf.mongodb.net/todo?retryWrites=true&w=majority
+>
 > PORT=3000
 
 ## Run Server ##
@@ -31,5 +33,4 @@ Build Front End
 > npm build 
 
 
-Copyright © 2020 by Ananda D. Yasmine
-All rights reserved. This repository or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the developer.
+Copyright © 2020 by Ananda Yasmine. All rights reserved.
