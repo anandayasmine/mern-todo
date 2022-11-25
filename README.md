@@ -34,6 +34,8 @@ Build Front End
 
 
 ## The Application ##
+![alt text](https://github.com/anandayasmine/mern-todo/blob/main/public/images/ss-2.jpg?raw=true)
+![alt text](https://github.com/anandayasmine/mern-todo/blob/main/public/images/ss-3.jpg?raw=true)
 ![alt text](https://github.com/anandayasmine/mern-todo/blob/main/public/images/ss-1.jpg?raw=true)
 
 
