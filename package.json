@@ -1,7 +1,6 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "description": "[Darshana Design Studio] Coding challenge",
   "main": "index.js",
   "scripts": {
     "server": "node server/init.js",
